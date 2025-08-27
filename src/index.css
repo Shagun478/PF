@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-white scroll-smooth;
+}
+
+::selection {
+  background: #f0abfc; /* fuchsia-300 */
+  color: #000;
+}
+
+a {
+  @apply cursor-pointer;
+}
